@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0 0;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* About Section */
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .about p {
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+
+        /* Skills Section */
+        .skills {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background: #e2e2e2;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        /* Projects Section */
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .project {
+            background: #e2e2e2;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            width: calc(30% - 20px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .project:first-child {
+            margin-bottom: 5px; 
+        }
+        /* Contact Section */
+        .contact p {
+            font-size: 1.1em;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Pyla Thrisha</h1>
+        <p>Web Developer | Designer | Creative Thinker</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <img src="Pyla Thrisha .jpg" alt="Your Image">
+        <p>Hello! I’m a passionate web developer with experience in creating beautiful and functional websites. I love coding and I'm always eager to learn new technologies.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <!-- Project 1 -->
+            <div class="project">
+                <img src="expense tracker.jpg" alt="Project 1">
+                <h3>Expense Tracker</h3>
+                <p>An interactive web application that allows users to manage and monitor their expenses effortlessly.
+                 Users can categorize expenses, visualize spending patterns, and set budgeting goals for better financial management.
+                </p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project">
+                <img src="btd.jpg" alt="Project 2">
+                <h3>Brain Tumor Detection</h3>
+                <p>A machine learning model designed to analyze MRI scans for the detection of brain tumors.
+                 By utilizing advanced image processing techniques, the system aids in early diagnosis and enhances treatment planning.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section>
+        <h2>Resume</h2>
+        <p><a href="resume - thrisha.pdf" target="_blank">Download my resume</a></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: pylathrisha@gmail.com</p>
+        <p>Phone: 8309887246</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pyla Thrisha. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
